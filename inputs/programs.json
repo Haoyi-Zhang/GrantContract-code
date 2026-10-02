@@ -1,0 +1,3280 @@
+[
+  {
+    "id": "CoRR-RA-000",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-RA-001",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "CoRR-RA-010",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-RA-011",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "CoRR-RA-100",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-RA-101",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "CoRR-RA-110",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-RA-111",
+    "schema": "CoRR",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "CoRR-SC-001",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "CoRR-SC-010",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-SC-011",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "CoRR-SC-100",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-SC-101",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "CoRR-SC-110",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "CoRR-SC-111",
+    "schema": "CoRR",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-RA-0000",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-0001",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-0010",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-0011",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-0100",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-0101",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-0110",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-0111",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-1000",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-1001",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-1010",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-1011",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-1100",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-1101",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-RA-1110",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-RA-1111",
+    "schema": "MP",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "MP-SC-0001",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-0010",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-0011",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-0100",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-0101",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-0110",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-0111",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-1000",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-1001",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-1010",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-1011",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-1100",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-1101",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "MP-SC-1110",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "MP-SC-1111",
+    "schema": "MP",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-RA-0000",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-0001",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-0010",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "REL",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-0011",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "REL",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-0100",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-0101",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-0110",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "REL",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-0111",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "REL",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-1000",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-1001",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-1010",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "REL",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-1011",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "REL",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-1100",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-1101",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-RA-1110",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "REL",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-RA-1111",
+    "schema": "SB",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "REL",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "SB-SC-0001",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-0010",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-0011",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-0100",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-0101",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-0110",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-0111",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-1000",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-1001",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-1010",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-1011",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-1100",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-1101",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "SB-SC-1110",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "SB-SC-1111",
+    "schema": "SB",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-RA-00000",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-00001",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-00010",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-00011",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-00100",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-00101",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-00110",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-00111",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-01000",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-01001",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-01010",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-01011",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-01100",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-01101",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-01110",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-01111",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "ACQ",
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-10000",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-10001",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-10010",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-10011",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-10100",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-10101",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-10110",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-10111",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-11000",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-11001",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-11010",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-11011",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-11100",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "REL",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-11101",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "REL",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-RA-11110",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "REL",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-RA-11111",
+    "schema": "WRC",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "ACQ",
+      "REL",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "WRC-SC-00001",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-00010",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-00011",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-00100",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-00101",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-00110",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-00111",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-01000",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-01001",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-01010",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-01011",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-01100",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-01101",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-01110",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-01111",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-10000",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-10001",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-10010",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-10011",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-10100",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-10101",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-10110",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-10111",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-11000",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-11001",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-11010",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-11011",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-11100",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-11101",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "WRC-SC-11110",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "WRC-SC-11111",
+    "schema": "WRC",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-000111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-001111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-010111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-011111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "RLX",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-100111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-101111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-110111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "RLX",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111000",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111001",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "RLX",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111010",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111011",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "RLX",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111100",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111101",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "RLX",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111110",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-RA-111111",
+    "schema": "IRIW",
+    "family": "RA",
+    "modes": [
+      "REL",
+      "REL",
+      "ACQ",
+      "ACQ",
+      "ACQ",
+      "ACQ"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-000111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-001111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-010111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-011111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-100111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-101111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-110111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111000",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111001",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111010",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111011",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111100",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111101",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "RLX",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111110",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "RLX"
+    ]
+  },
+  {
+    "id": "IRIW-SC-111111",
+    "schema": "IRIW",
+    "family": "SC",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-MIX-221212",
+    "schema": "IRIW",
+    "family": "MIXED_CONTROL",
+    "modes": [
+      "SC",
+      "SC",
+      "ACQ",
+      "SC",
+      "ACQ",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-MIX-221222",
+    "schema": "IRIW",
+    "family": "MIXED_CONTROL",
+    "modes": [
+      "SC",
+      "SC",
+      "ACQ",
+      "SC",
+      "SC",
+      "SC"
+    ]
+  },
+  {
+    "id": "IRIW-MIX-222212",
+    "schema": "IRIW",
+    "family": "MIXED_CONTROL",
+    "modes": [
+      "SC",
+      "SC",
+      "SC",
+      "SC",
+      "ACQ",
+      "SC"
+    ]
+  }
+]

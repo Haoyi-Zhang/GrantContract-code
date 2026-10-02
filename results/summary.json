@@ -1,0 +1,129 @@
+{
+  "counting_note": "Three semantic classifications per graph, one mask obligation per program/mask, one set decision per need/have pair, six named controls, and each distinct safe/bad pair per profile. Internal loop iterations and unit-test assertions are not called separate scientific obligations.",
+  "dependency_sets": [
+    {
+      "decisions": 4,
+      "exact_fixed_bits": 1,
+      "full_prefix_safe_rejections": 0,
+      "independent_writes": 1,
+      "max_member_unsafe_acceptances": 0,
+      "required_sets": 2
+    },
+    {
+      "decisions": 16,
+      "exact_fixed_bits": 2,
+      "full_prefix_safe_rejections": 1,
+      "independent_writes": 2,
+      "max_member_unsafe_acceptances": 1,
+      "required_sets": 4
+    },
+    {
+      "decisions": 64,
+      "exact_fixed_bits": 3,
+      "full_prefix_safe_rejections": 7,
+      "independent_writes": 3,
+      "max_member_unsafe_acceptances": 9,
+      "required_sets": 8
+    },
+    {
+      "decisions": 256,
+      "exact_fixed_bits": 4,
+      "full_prefix_safe_rejections": 33,
+      "independent_writes": 4,
+      "max_member_unsafe_acceptances": 55,
+      "required_sets": 16
+    }
+  ],
+  "factored_contract_maxima": [
+    [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ]
+    ]
+  ],
+  "negative_controls": {
+    "actual_RA_IRIW_allowed": true,
+    "acyclic_union_rejects_allowed_RA_IRIW": true,
+    "existential_projection_accepts_forbidden_MP": true,
+    "mixed_SC_distinguishes_targets": true,
+    "omit_sc_accepts_forbidden_SB": true,
+    "omit_sw_accepts_forbidden_MP": true
+  },
+  "schemas": {
+    "CoRR": {
+      "all_safe_profiles": 15,
+      "allowed": 45,
+      "background": 45,
+      "graphs": 60,
+      "max_min_observed": 0,
+      "nonconstant_profiles": 0,
+      "programs": 15
+    },
+    "IRIW": {
+      "all_safe_profiles": 126,
+      "allowed": 2076,
+      "background": 2080,
+      "graphs": 2080,
+      "max_min_observed": 4,
+      "nonconstant_profiles": 4,
+      "programs": 130
+    },
+    "MP": {
+      "all_safe_profiles": 23,
+      "allowed": 116,
+      "background": 124,
+      "graphs": 124,
+      "max_min_observed": 2,
+      "nonconstant_profiles": 8,
+      "programs": 31
+    },
+    "SB": {
+      "all_safe_profiles": 30,
+      "allowed": 123,
+      "background": 124,
+      "graphs": 124,
+      "max_min_observed": 2,
+      "nonconstant_profiles": 1,
+      "programs": 31
+    },
+    "WRC": {
+      "all_safe_profiles": 47,
+      "allowed": 488,
+      "background": 504,
+      "graphs": 504,
+      "max_min_observed": 3,
+      "nonconstant_profiles": 16,
+      "programs": 63
+    }
+  },
+  "totals": {
+    "allowed_graphs": 2848,
+    "background_graphs": 2877,
+    "classification_and_mask_obligations": 11914,
+    "counted_obligations": 12113,
+    "full_observation_failures": 0,
+    "graphs": 2892,
+    "max_base_edges": 24,
+    "max_vertices": 8,
+    "mixed_masks": 199,
+    "observation_masks": 2892,
+    "oracle_mismatches": 0,
+    "original_rc11_differences": 3,
+    "programs": 270,
+    "safe_bad_pair_obligations": 199,
+    "witness_certificates": 199
+  }
+}

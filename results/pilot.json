@@ -1,0 +1,14 @@
+{
+  "pilot": "largest IRIW source/mask universe plus MP negative control",
+  "profiles": 3,
+  "classified_graphs": 36,
+  "mask_oracle_assertions": 32,
+  "assertions": 67,
+  "workers": 1,
+  "cpu_seconds": 0.004773930000000037,
+  "wall_seconds": 0.006278490999989117,
+  "peak_rss_kib": 92460,
+  "encoding": "explicit <=8 vertex relations; binary source assignments; no solver, quantifiers or random seeds",
+  "status": "PASS finite checking pilot only",
+  "projection": "full 267-profile enumeration fits 120 CPU seconds; no protocol-state-space projection is claimed"
+}

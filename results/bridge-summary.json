@@ -1,0 +1,225 @@
+{
+  "case_count": 10,
+  "cases": [
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 55,
+      "controller_nodes": 51,
+      "id": "raw-eager",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 33,
+      "mechanism": "raw",
+      "one_traces": 22,
+      "policy": "eager",
+      "safe": false,
+      "zero_traces": 11
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 42,
+      "controller_nodes": 39,
+      "id": "raw-receipt",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 21,
+      "mechanism": "raw",
+      "one_traces": 16,
+      "policy": "receipt",
+      "safe": false,
+      "zero_traces": 5
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 40,
+      "controller_nodes": 39,
+      "id": "raw-cache-only",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 15,
+      "mechanism": "raw",
+      "one_traces": 13,
+      "policy": "cache_only",
+      "safe": false,
+      "zero_traces": 2
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 28,
+      "controller_nodes": 27,
+      "id": "raw-stable-state",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 9,
+      "mechanism": "raw",
+      "one_traces": 9,
+      "policy": "stable_state",
+      "safe": true,
+      "zero_traces": 0
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 28,
+      "controller_nodes": 27,
+      "id": "raw-pending-receipt",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 9,
+      "mechanism": "raw",
+      "one_traces": 9,
+      "policy": "pending_receipt",
+      "safe": true,
+      "zero_traces": 0
+    },
+    {
+      "blocked_traces": 5,
+      "complete": false,
+      "controller_edges": 24,
+      "controller_nodes": 23,
+      "id": "raw-safe-history",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 9,
+      "mechanism": "raw",
+      "one_traces": 4,
+      "policy": "safe_history",
+      "safe": true,
+      "zero_traces": 0
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 11,
+      "controller_nodes": 11,
+      "id": "drain-receipt",
+      "max_dynamic_steps": 5,
+      "maximal_traces": 5,
+      "mechanism": "drain",
+      "one_traces": 5,
+      "policy": "receipt",
+      "safe": true,
+      "zero_traces": 0
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 23,
+      "controller_nodes": 18,
+      "id": "generation-receipt",
+      "max_dynamic_steps": 5,
+      "maximal_traces": 12,
+      "mechanism": "generation",
+      "one_traces": 12,
+      "policy": "receipt",
+      "safe": true,
+      "zero_traces": 0
+    },
+    {
+      "blocked_traces": 0,
+      "complete": true,
+      "controller_edges": 42,
+      "controller_nodes": 39,
+      "id": "late-generation-receipt",
+      "max_dynamic_steps": 6,
+      "maximal_traces": 19,
+      "mechanism": "late_generation",
+      "one_traces": 16,
+      "policy": "receipt",
+      "safe": false,
+      "zero_traces": 3
+    },
+    {
+      "blocked_traces": 3,
+      "complete": false,
+      "controller_edges": 18,
+      "controller_nodes": 17,
+      "id": "no-repair-pending-receipt",
+      "max_dynamic_steps": 5,
+      "maximal_traces": 8,
+      "mechanism": "no_repair",
+      "one_traces": 5,
+      "policy": "pending_receipt",
+      "safe": true,
+      "zero_traces": 0
+    }
+  ],
+  "counted_obligations": 462,
+  "counting_note": "One per retained plant edge, grant-enabled state, maximal case trace, completed trace map, history fiber, case prediction and paired impossibility certificate. Internal successor/reachability comparisons are not extra scientific instances.",
+  "counts": {
+    "case_prediction_obligations": 10,
+    "completed_trace_mapping_obligations": 132,
+    "grant_guard_obligations": 22,
+    "history_obligations": 31,
+    "impossibility_certificate_obligations": 1,
+    "maximal_trace_obligations": 140,
+    "plant_edge_obligations": 126
+  },
+  "grant_formula_mismatches": 0,
+  "history_oracle_mismatches": 0,
+  "impossibility_certificate": {
+    "bad_suffix": [
+      "grant",
+      "fill",
+      "read0"
+    ],
+    "good": {
+      "initial_old_pending": 0,
+      "prefix": [
+        "flag",
+        "ack"
+      ],
+      "state": 48
+    },
+    "hazardous": {
+      "initial_old_pending": 1,
+      "prefix": [
+        "flag",
+        "ack"
+      ],
+      "state": 52
+    },
+    "mechanism": "raw",
+    "metric": "maximum of two dynamic prefix lengths after fixed source writes; initial old-fill choice is not a dynamic event",
+    "minimum_maximum_prefix_length": 2,
+    "observation": [
+      "flag",
+      "ack"
+    ],
+    "quiescent_good_branch_only_enabled_action": "grant"
+  },
+  "plants": [
+    {
+      "acyclic": true,
+      "mechanism": "raw",
+      "state_count": 20,
+      "transition_count": 30
+    },
+    {
+      "acyclic": true,
+      "mechanism": "drain",
+      "state_count": 12,
+      "transition_count": 15
+    },
+    {
+      "acyclic": true,
+      "mechanism": "generation",
+      "state_count": 16,
+      "transition_count": 24
+    },
+    {
+      "acyclic": true,
+      "mechanism": "late_generation",
+      "state_count": 20,
+      "transition_count": 30
+    },
+    {
+      "acyclic": true,
+      "mechanism": "no_repair",
+      "state_count": 20,
+      "transition_count": 27
+    }
+  ],
+  "safe_and_complete_case_count": 4,
+  "scope": "One producer, one consumer, one release/acquire episode, one data line and at most one old fill. Exact enumerated abstract traces; not hardware timings or generic protocol coverage.",
+  "trace_mapping_mismatches": 0,
+  "transition_oracle_mismatches": 0
+}

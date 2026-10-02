@@ -1,0 +1,3895 @@
+[
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-RA-0110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-RA-0110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-RA-0110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-RA-0111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-RA-0111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-RA-0111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-RA-1110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-RA-1110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-RA-1110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-RA-1111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-RA-1111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-RA-1111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-SC-0110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-SC-0110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-SC-0110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-SC-0111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-SC-0111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-SC-0111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-SC-1110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-SC-1110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-SC-1110"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "MP-SC-1111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "MP-SC-1111"
+  },
+  {
+    "bad": [
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "MP-SC-1111"
+  },
+  {
+    "bad": [
+      0,
+      0
+    ],
+    "good": [
+      0,
+      1
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "SB-SC-1111"
+  },
+  {
+    "bad": [
+      0,
+      0
+    ],
+    "good": [
+      0,
+      1
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "SB-SC-1111"
+  },
+  {
+    "bad": [
+      0,
+      0
+    ],
+    "good": [
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "SB-SC-1111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-RA-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-00110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-00111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-01110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-01111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-10110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-10111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-11110"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "WRC-SC-11111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 7,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      1
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 8,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 9,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 10,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 11,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 12,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "mask": 13,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 14,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1,
+      0
+    ],
+    "program": "IRIW-SC-111111"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 7,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      1
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 8,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 9,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 10,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 11,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 12,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "mask": 13,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 14,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 7,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      1
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 8,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 9,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 10,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 11,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 12,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "mask": 13,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 14,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-221222"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 0,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 1,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 2,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 3,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 4,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 5,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 6,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "mask": 7,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      1
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 8,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 9,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 10,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "mask": 11,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 12,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "mask": 13,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      1,
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  },
+  {
+    "bad": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "good": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "mask": 14,
+    "metric_scope": "within this retained program and background universe only",
+    "minimum_read_source_hamming_distance": 1,
+    "observation": [
+      0,
+      1,
+      0
+    ],
+    "program": "IRIW-MIX-222212"
+  }
+]

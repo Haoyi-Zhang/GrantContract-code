@@ -1,0 +1,134 @@
+[
+  {
+    "formula_safe": false,
+    "mechanism": "raw",
+    "state": 40,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "raw",
+    "state": 44,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "raw",
+    "state": 48,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "raw",
+    "state": 52,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "raw",
+    "state": 56,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "drain",
+    "state": 40,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "drain",
+    "state": 44,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "drain",
+    "state": 48,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "generation",
+    "state": 40,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "generation",
+    "state": 44,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "generation",
+    "state": 48,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "generation",
+    "state": 52,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "late_generation",
+    "state": 40,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "late_generation",
+    "state": 44,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "late_generation",
+    "state": 48,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "late_generation",
+    "state": 52,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "late_generation",
+    "state": 56,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "no_repair",
+    "state": 40,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "no_repair",
+    "state": 44,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": true,
+    "mechanism": "no_repair",
+    "state": 48,
+    "universal_suffix_safe": true
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "no_repair",
+    "state": 52,
+    "universal_suffix_safe": false
+  },
+  {
+    "formula_safe": false,
+    "mechanism": "no_repair",
+    "state": 56,
+    "universal_suffix_safe": false
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "accounting_basis": "Preserve every disclosed scientific-enumeration charge. Passing tests or short runtime does not waive a cumulative ceiling. TeX compilation, file copying, parsed retained-output comparison, ledger-shape checks, and visual PDF inspection are non-enumerative. Identifiable full-universe invocations are charged at their declared minimum; unmetered partial development/test invocations prevent an exact all-in total.",
+  "limits": {
+    "workers": 1,
+    "per_run_process_cpu_seconds": 120,
+    "per_run_address_space_bytes": 2500000000,
+    "per_run_counted_obligations_ceiling": 100000,
+    "final_project_archive_target_bytes": 134217728
+  },
+  "original_campaign_ceiling_obligations": 100000,
+  "original_known_charge_before_completion": 108118,
+  "original_minimum_excess": 8118,
+  "prospective_completion_ceiling_obligations": 160000,
+  "documented_account_before_later_replay": 153247,
+  "prior_conservative_lower_bound_before_current_repair": 206552,
+  "current_repair_phase_charges": {
+    "two_standalone_metaoracle_invocations": {
+      "invocations": 2,
+      "minimum_each": 4403,
+      "subtotal": 8806
+    },
+    "post_interning_metaoracle_invocation": {
+      "invocations": 1,
+      "minimum_each": 4403,
+      "subtotal": 4403
+    },
+    "focused_validation_suite": {
+      "basis": "one complete 4,403-obligation meta-oracle plus one complete 2,024-obligation parameterized study",
+      "minimum": 6427
+    },
+    "earlier_full_78_test_validation_suite": {
+      "basis": "one complete meta-oracle plus one complete parameterized study",
+      "minimum": 6427
+    },
+    "fresh_full_replay": {
+      "minimum": 19002
+    },
+    "subtotal": 45065,
+    "derivation": "206552 + 45065 = 251617",
+    "note": "Partial and duplicated invocations not individually metered are omitted, so this is a conservative lower-bound contribution."
+  },
+  "final_validation_charges_after_251617_account": {
+    "final_worktree_78_test_suite": {
+      "minimum": 6427
+    },
+    "clean_full_project_78_test_suite": {
+      "minimum": 6427
+    },
+    "clean_standalone_repository_78_test_suite": {
+      "minimum": 6427
+    },
+    "subtotal": 19281,
+    "derivation": "251617 + 3*6427 = 270898",
+    "note": "Each suite is charged only for the complete 4,403-obligation meta-oracle and 2,024-obligation parameterized study; other partial obligations are not added."
+  },
+  "known_conservative_lower_bound": 270898,
+  "minimum_excess_over_prospective_ceiling": 110898,
+  "exact_all_in_total_known": false,
+  "remaining_reserve_claimed": false,
+  "retained_fresh_replay": {
+    "counted_obligations": 19002,
+    "cpu_seconds_after_imports": 0.808267596,
+    "wall_seconds_after_imports": 0.8082931280000594,
+    "peak_rss_kib": 98348,
+    "peak_rss_mib": 96.04296875,
+    "rss_unit": "Linux ru_maxrss KiB",
+    "platform": "x86-64 Linux 6.18.44; glibc 2.41; CPython 3.13.5",
+    "workers": 1,
+    "network_requests": 0,
+    "randomness": "none; exhaustive lexicographic enumeration"
+  },
+  "final_revision": {
+    "full_reproduce_executed": true,
+    "retained_scientific_outputs_expanded": true,
+    "reason_for_new_full_replay": "The corrected lifting theorem, shared observation labels, real receipt-labelled plants, complexity checks, and verification-scope repairs changed scientific outputs and therefore required one measured serial replay.",
+    "validation_actions_completed": [
+      "78-test deterministic suite in the repaired working tree",
+      "one complete 19,002-obligation serial replay producing all eleven retained outputs",
+      "parsed-value comparison plus local summary and ledger-structure checks",
+      "a second final working-tree 78-test suite",
+      "clean full-project 78-test suite",
+      "clean standalone-repository 78-test suite",
+      "12-page main and 3-page companion clean rebuild"
+    ],
+    "non_enumerative_final_actions": [
+      "final retained-output verify.py checks",
+      "final paper rebuild and byte comparison",
+      "full-page PDF rendering and visual inspection",
+      "ZIP integrity and root-layout checks"
+    ]
+  },
+  "status": "NONCOMPLIANT_CUMULATIVE_ENUMERATION_BUDGET",
+  "interpretation": "The budget violation is disclosed process noncompliance. It is neither evidence for nor against the mathematical statements and is not presented as a scientific result in the reviewer-facing manuscript.",
+  "why_exact_total_is_unknown": "The chronology charges every identifiable full-universe invocation at its declared minimum, but several partial development/test invocations were never individually metered. The honest total is therefore a conservative lower bound, not a fabricated exact count."
+}

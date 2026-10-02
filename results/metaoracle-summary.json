@@ -1,0 +1,2178 @@
+{
+  "complexity_sanity": {
+    "exact": true,
+    "hidden_only": {
+      "initial_belief_size": 2,
+      "observer_edge_count": 0,
+      "observer_state_count": 1,
+      "pregrant_edge_count": 1,
+      "visible_alphabet_size": 0
+    },
+    "two_state_multi_label": {
+      "observer_edge_count": 32,
+      "observer_state_count": 2,
+      "pregrant_edge_count": 32,
+      "visible_alphabet_size": 32
+    }
+  },
+  "contract_candidates_checked": 1188,
+  "counted_obligations": 4403,
+  "eligibility_mutant_counterexamples": 180,
+  "existential_mutant_counterexamples": 64,
+  "first_existential_mutant_witness": {
+    "fiber": [
+      "p0",
+      "p1"
+    ],
+    "history": [],
+    "plant_index": 61,
+    "safe_states_in_fiber": [
+      "p1"
+    ],
+    "unsafe_states_in_fiber": [
+      "p0"
+    ]
+  },
+  "greatest_contract_mismatches": 0,
+  "kernel_mismatches": 0,
+  "lifting_counterexample": {
+    "L1": true,
+    "L1_through_L4": true,
+    "L2": true,
+    "L3": true,
+    "L4": true,
+    "L6": false,
+    "abstract": {
+      "good_terminal": "g",
+      "grant": [
+        "q",
+        "g"
+      ],
+      "initial": [
+        "q"
+      ]
+    },
+    "abstract_cstar_enables": true,
+    "abstract_epsilon_knowledge": [
+      "q"
+    ],
+    "actual_grant_safety": true,
+    "alpha": {
+      "gB": "g",
+      "s0": "q",
+      "s1": "q"
+    },
+    "concrete": {
+      "good_terminal": "gB",
+      "grant": [
+        "s1",
+        "gB"
+      ],
+      "hidden_step": [
+        "s0",
+        "s1"
+      ],
+      "initial": [
+        "s0"
+      ]
+    },
+    "epsilon_knowledge": [
+      "s0",
+      "s1"
+    ],
+    "full_correctness": false,
+    "ineligible_in_epsilon": [
+      "s0"
+    ],
+    "interpretation": "L1--L4 prove good completion for concrete grants that actually occur, but do not supply grant eligibility at every concrete state in an admitted fiber.",
+    "rank": {
+      "s0": 1,
+      "s1": 0
+    },
+    "validation_status": "finite executable counterexample"
+  },
+  "nonblocking_mismatches": 0,
+  "observer_mismatches": 0,
+  "plants_checked": 486,
+  "plants_with_nonblocking_contract": 130,
+  "receipt_partition_results": [
+    {
+      "bound": 0,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 5,
+      "observer_state_count": 4,
+      "partition": [
+        0
+      ],
+      "safe_history_count": 2,
+      "zero_isolated": true
+    },
+    {
+      "bound": 1,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 9,
+      "observer_state_count": 6,
+      "partition": [
+        0,
+        0
+      ],
+      "safe_history_count": 3,
+      "zero_isolated": false
+    },
+    {
+      "bound": 1,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 12,
+      "observer_state_count": 6,
+      "partition": [
+        0,
+        1
+      ],
+      "safe_history_count": 5,
+      "zero_isolated": true
+    },
+    {
+      "bound": 2,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 14,
+      "observer_state_count": 8,
+      "partition": [
+        0,
+        0,
+        0
+      ],
+      "safe_history_count": 4,
+      "zero_isolated": false
+    },
+    {
+      "bound": 2,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 21,
+      "observer_state_count": 8,
+      "partition": [
+        0,
+        0,
+        1
+      ],
+      "safe_history_count": 7,
+      "zero_isolated": false
+    },
+    {
+      "bound": 2,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 25,
+      "observer_state_count": 8,
+      "partition": [
+        0,
+        1,
+        0
+      ],
+      "safe_history_count": 10,
+      "zero_isolated": false
+    },
+    {
+      "bound": 2,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 21,
+      "observer_state_count": 8,
+      "partition": [
+        0,
+        1,
+        1
+      ],
+      "safe_history_count": 9,
+      "zero_isolated": true
+    },
+    {
+      "bound": 2,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 28,
+      "observer_state_count": 8,
+      "partition": [
+        0,
+        1,
+        2
+      ],
+      "safe_history_count": 12,
+      "zero_isolated": true
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 20,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "safe_history_count": 5,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 32,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "safe_history_count": 9,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 41,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "safe_history_count": 13,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 36,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "safe_history_count": 12,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 48,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "safe_history_count": 16,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 41,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "safe_history_count": 16,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 50,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "safe_history_count": 20,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 57,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "safe_history_count": 23,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 45,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "safe_history_count": 19,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 32,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "safe_history_count": 14,
+      "zero_isolated": true
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 48,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "safe_history_count": 21,
+      "zero_isolated": true
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 61,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "safe_history_count": 26,
+      "zero_isolated": false
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 57,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "safe_history_count": 25,
+      "zero_isolated": true
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 48,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "safe_history_count": 21,
+      "zero_isolated": true
+    },
+    {
+      "bound": 3,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 64,
+      "observer_state_count": 10,
+      "partition": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "safe_history_count": 28,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 9,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 27,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "safe_history_count": 6,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 45,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "safe_history_count": 11,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 8,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 60,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "safe_history_count": 16,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 54,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "safe_history_count": 15,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 72,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "safe_history_count": 20,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 8,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 65,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "safe_history_count": 20,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 80,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "safe_history_count": 25,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 92,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "safe_history_count": 29,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 74,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "safe_history_count": 24,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 54,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "safe_history_count": 18,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 81,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "safe_history_count": 27,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 101,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "safe_history_count": 33,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 96,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "safe_history_count": 32,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 81,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      "safe_history_count": 27,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 3,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 108,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "safe_history_count": 36,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 8,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 60,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "safe_history_count": 23,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 85,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "safe_history_count": 33,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 92,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      "safe_history_count": 36,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 96,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "safe_history_count": 38,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 80,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "safe_history_count": 32,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 112,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "safe_history_count": 45,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 112,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "safe_history_count": 45,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 121,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      "safe_history_count": 49,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 96,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      "safe_history_count": 39,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 4,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 128,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      "safe_history_count": 52,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 74,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "safe_history_count": 31,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 85,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "safe_history_count": 36,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 101,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "safe_history_count": 43,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 69,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "safe_history_count": 30,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 45,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "safe_history_count": 20,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 72,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "safe_history_count": 32,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 105,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "safe_history_count": 46,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 92,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "safe_history_count": 41,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 81,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "safe_history_count": 36,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 108,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        1,
+        2,
+        3
+      ],
+      "safe_history_count": 48,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 7,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 101,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "safe_history_count": 43,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 130,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "safe_history_count": 56,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 121,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      "safe_history_count": 52,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 5,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 137,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      "safe_history_count": 59,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 125,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "safe_history_count": 55,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 92,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "safe_history_count": 41,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 112,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "safe_history_count": 50,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 128,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        3
+      ],
+      "safe_history_count": 57,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 105,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        0
+      ],
+      "safe_history_count": 46,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 101,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "safe_history_count": 45,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 72,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        2
+      ],
+      "safe_history_count": 32,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 108,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        3
+      ],
+      "safe_history_count": 48,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": false,
+      "direct_path_nonblocking": false,
+      "exact": true,
+      "first_blocker": {
+        "fiber_size": 6,
+        "history": [
+          "ack:0",
+          "flag"
+        ],
+        "state": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "generic_nonblocking_exists": false,
+      "history_count": 141,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        3,
+        0
+      ],
+      "safe_history_count": 62,
+      "zero_isolated": false
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 137,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        3,
+        1
+      ],
+      "safe_history_count": 61,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 128,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "safe_history_count": 57,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 108,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ],
+      "safe_history_count": 48,
+      "zero_isolated": true
+    },
+    {
+      "bound": 4,
+      "direct_nonblocking_exists": true,
+      "direct_path_nonblocking": true,
+      "exact": true,
+      "first_blocker": null,
+      "generic_nonblocking_exists": true,
+      "history_count": 144,
+      "observer_state_count": 12,
+      "partition": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "safe_history_count": 64,
+      "zero_isolated": true
+    }
+  ],
+  "receipt_partitions_by_bound": {
+    "0": 1,
+    "1": 2,
+    "2": 5,
+    "3": 15,
+    "4": 52
+  },
+  "receipt_partitions_checked": 75,
+  "receipt_plant_mismatches": 0,
+  "scope": "Exhaustive finite meta-check over the declared two-pre/two-post-state universe, plus 75 explicitly receipt-labelled raw plants through K=4; not a proof of the arbitrary finite theorem and not a protocol evaluation.",
+  "universe": {
+    "good_terminals": "every subset of actual post dead ends",
+    "grant_options": "none, t0, or t1 independently at each pre state",
+    "initial_sets": "all nonempty subsets of the two pre states",
+    "post_edge": "t0->t1 absent or hidden",
+    "post_states": [
+      "t0",
+      "t1"
+    ],
+    "pre_edge": "p0->p1 absent, hidden, or visible a",
+    "pre_states": [
+      "p0",
+      "p1"
+    ]
+  }
+}

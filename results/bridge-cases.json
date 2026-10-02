@@ -1,0 +1,4508 @@
+[
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 55,
+    "controller_nodes": 51,
+    "id": "raw-eager",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 33,
+    "mechanism": "raw",
+    "one_traces": 22,
+    "policy": "eager",
+    "safe": false,
+    "shortest_bad": {
+      "actions": [
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "initial_old_pending": 0,
+      "observations": [
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "outcome": "zero",
+      "read_source_word": [
+        1,
+        0
+      ],
+      "state_codes": [
+        8,
+        40,
+        41,
+        42
+      ],
+      "target_allowed": false
+    },
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          41,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          8,
+          40,
+          41,
+          42
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          41,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          41,
+          42
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          41,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          41,
+          42
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "ack",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          45,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "ack",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          45,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          45,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          45,
+          41,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          45,
+          41,
+          42
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          45,
+          46
+        ],
+        "target_allowed": false
+      }
+    ],
+    "zero_traces": 11
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 42,
+    "controller_nodes": 39,
+    "id": "raw-receipt",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 21,
+    "mechanism": "raw",
+    "one_traces": 16,
+    "policy": "receipt",
+    "safe": false,
+    "shortest_bad": {
+      "actions": [
+        "ack",
+        "fill",
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "initial_old_pending": 1,
+      "observations": [
+        "ack",
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "outcome": "zero",
+      "read_source_word": [
+        1,
+        0
+      ],
+      "state_codes": [
+        12,
+        20,
+        24,
+        56,
+        57,
+        58
+      ],
+      "target_allowed": false
+    },
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 5
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 40,
+    "controller_nodes": 39,
+    "id": "raw-cache-only",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 15,
+    "mechanism": "raw",
+    "one_traces": 13,
+    "policy": "cache_only",
+    "safe": false,
+    "shortest_bad": {
+      "actions": [
+        "ack",
+        "flag",
+        "grant",
+        "fill",
+        "read0"
+      ],
+      "initial_old_pending": 1,
+      "observations": [
+        "ack",
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "outcome": "zero",
+      "read_source_word": [
+        1,
+        0
+      ],
+      "state_codes": [
+        12,
+        20,
+        52,
+        53,
+        57,
+        58
+      ],
+      "target_allowed": false
+    },
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 2
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 28,
+    "controller_nodes": 27,
+    "id": "raw-stable-state",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 9,
+    "mechanism": "raw",
+    "one_traces": 9,
+    "policy": "stable_state",
+    "safe": true,
+    "shortest_bad": null,
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 0
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 28,
+    "controller_nodes": 27,
+    "id": "raw-pending-receipt",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 9,
+    "mechanism": "raw",
+    "one_traces": 9,
+    "policy": "pending_receipt",
+    "safe": true,
+    "shortest_bad": null,
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack:0",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:+",
+          "ack:0",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:+",
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:+",
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:0",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack:+",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 0
+  },
+  {
+    "blocked_traces": 5,
+    "complete": false,
+    "controller_edges": 24,
+    "controller_nodes": 23,
+    "id": "raw-safe-history",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 9,
+    "mechanism": "raw",
+    "one_traces": 4,
+    "policy": "safe_history",
+    "safe": true,
+    "shortest_bad": null,
+    "shortest_blocked": {
+      "actions": [
+        "ack",
+        "flag"
+      ],
+      "initial_old_pending": 0,
+      "observations": [
+        "ack",
+        "flag"
+      ],
+      "outcome": "blocked",
+      "read_source_word": null,
+      "state_codes": [
+        8,
+        16,
+        48
+      ],
+      "target_allowed": null
+    },
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          8,
+          16,
+          48
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "flag",
+          "ack"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          8,
+          40,
+          48
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          12,
+          8,
+          16,
+          48
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          12,
+          8,
+          40,
+          48
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          12,
+          44,
+          40,
+          48
+        ],
+        "target_allowed": null
+      }
+    ],
+    "zero_traces": 0
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 11,
+    "controller_nodes": 11,
+    "id": "drain-receipt",
+    "max_dynamic_steps": 5,
+    "maximal_traces": 5,
+    "mechanism": "drain",
+    "one_traces": 5,
+    "policy": "receipt",
+    "safe": true,
+    "shortest_bad": null,
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 0
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 23,
+    "controller_nodes": 18,
+    "id": "generation-receipt",
+    "max_dynamic_steps": 5,
+    "maximal_traces": 12,
+    "mechanism": "generation",
+    "one_traces": 12,
+    "policy": "receipt",
+    "safe": true,
+    "shortest_bad": null,
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 0
+  },
+  {
+    "blocked_traces": 0,
+    "complete": true,
+    "controller_edges": 42,
+    "controller_nodes": 39,
+    "id": "late-generation-receipt",
+    "max_dynamic_steps": 6,
+    "maximal_traces": 19,
+    "mechanism": "late_generation",
+    "one_traces": 16,
+    "policy": "receipt",
+    "safe": false,
+    "shortest_bad": {
+      "actions": [
+        "ack",
+        "fill",
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "initial_old_pending": 1,
+      "observations": [
+        "ack",
+        "flag",
+        "grant",
+        "read0"
+      ],
+      "outcome": "zero",
+      "read_source_word": [
+        1,
+        0
+      ],
+      "state_codes": [
+        12,
+        20,
+        24,
+        56,
+        57,
+        58
+      ],
+      "target_allowed": false
+    },
+    "shortest_blocked": null,
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          24,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "fill",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          20,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "ack",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          57,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill",
+          "grant",
+          "read0"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read0"
+        ],
+        "outcome": "zero",
+        "read_source_word": [
+          1,
+          0
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          56,
+          57,
+          58
+        ],
+        "target_allowed": false
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "fill",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          52,
+          53,
+          55
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 3
+  },
+  {
+    "blocked_traces": 3,
+    "complete": false,
+    "controller_edges": 18,
+    "controller_nodes": 17,
+    "id": "no-repair-pending-receipt",
+    "max_dynamic_steps": 5,
+    "maximal_traces": 8,
+    "mechanism": "no_repair",
+    "one_traces": 5,
+    "policy": "pending_receipt",
+    "safe": true,
+    "shortest_bad": null,
+    "shortest_blocked": {
+      "actions": [
+        "ack",
+        "fill",
+        "flag"
+      ],
+      "initial_old_pending": 1,
+      "observations": [
+        "ack:+",
+        "flag"
+      ],
+      "outcome": "blocked",
+      "read_source_word": null,
+      "state_codes": [
+        12,
+        20,
+        24,
+        56
+      ],
+      "target_allowed": null
+    },
+    "traces": [
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "ack:0",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 0,
+        "observations": [
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "ack",
+          "fill",
+          "flag"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:+",
+          "flag"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          12,
+          20,
+          24,
+          56
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "ack",
+          "flag",
+          "fill"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:+",
+          "flag"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          12,
+          20,
+          52,
+          56
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "fill",
+          "ack",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "ack:0",
+          "flag",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          16,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "fill",
+          "flag",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          8,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      },
+      {
+        "actions": [
+          "flag",
+          "ack",
+          "fill"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack:+"
+        ],
+        "outcome": "blocked",
+        "read_source_word": null,
+        "state_codes": [
+          12,
+          44,
+          52,
+          56
+        ],
+        "target_allowed": null
+      },
+      {
+        "actions": [
+          "flag",
+          "fill",
+          "ack",
+          "grant",
+          "read1"
+        ],
+        "initial_old_pending": 1,
+        "observations": [
+          "flag",
+          "ack:0",
+          "grant",
+          "read1"
+        ],
+        "outcome": "one",
+        "read_source_word": [
+          1,
+          1
+        ],
+        "state_codes": [
+          12,
+          44,
+          40,
+          48,
+          49,
+          51
+        ],
+        "target_allowed": true
+      }
+    ],
+    "zero_traces": 0
+  }
+]

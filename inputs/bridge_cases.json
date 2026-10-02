@@ -1,0 +1,118 @@
+{
+  "model": "one-epoch message-passing bridge with at most one old fill",
+  "primary_mechanisms": [
+    "raw",
+    "drain",
+    "generation"
+  ],
+  "mutation_mechanisms": [
+    "late_generation",
+    "no_repair"
+  ],
+  "initial_old_fill": [
+    0,
+    1
+  ],
+  "source_prefix": [
+    "write_data_1",
+    "write_release_flag_1"
+  ],
+  "program_modes": [
+    "RLX",
+    "REL",
+    "ACQ",
+    "RLX"
+  ],
+  "state_fields": [
+    "flag",
+    "invalidated",
+    "old_cache",
+    "old_pending",
+    "phase"
+  ],
+  "phase_encoding": {
+    "waiting": 0,
+    "granted": 1,
+    "done_zero": 2,
+    "done_one": 3
+  },
+  "bounds": {
+    "states_per_plant": 64,
+    "transitions_per_plant": 256,
+    "trace_depth": 48,
+    "case_count": 1000
+  },
+  "cases": [
+    {
+      "id": "raw-eager",
+      "mechanism": "raw",
+      "policy": "eager",
+      "expected_safe": false,
+      "expected_complete": true
+    },
+    {
+      "id": "raw-receipt",
+      "mechanism": "raw",
+      "policy": "receipt",
+      "expected_safe": false,
+      "expected_complete": true
+    },
+    {
+      "id": "raw-cache-only",
+      "mechanism": "raw",
+      "policy": "cache_only",
+      "expected_safe": false,
+      "expected_complete": true
+    },
+    {
+      "id": "raw-stable-state",
+      "mechanism": "raw",
+      "policy": "stable_state",
+      "expected_safe": true,
+      "expected_complete": true
+    },
+    {
+      "id": "raw-pending-receipt",
+      "mechanism": "raw",
+      "policy": "pending_receipt",
+      "expected_safe": true,
+      "expected_complete": true
+    },
+    {
+      "id": "raw-safe-history",
+      "mechanism": "raw",
+      "policy": "safe_history",
+      "expected_safe": true,
+      "expected_complete": false
+    },
+    {
+      "id": "drain-receipt",
+      "mechanism": "drain",
+      "policy": "receipt",
+      "expected_safe": true,
+      "expected_complete": true
+    },
+    {
+      "id": "generation-receipt",
+      "mechanism": "generation",
+      "policy": "receipt",
+      "expected_safe": true,
+      "expected_complete": true
+    },
+    {
+      "id": "late-generation-receipt",
+      "mechanism": "late_generation",
+      "policy": "receipt",
+      "expected_safe": false,
+      "expected_complete": true
+    },
+    {
+      "id": "no-repair-pending-receipt",
+      "mechanism": "no_repair",
+      "policy": "pending_receipt",
+      "expected_safe": true,
+      "expected_complete": false
+    }
+  ],
+  "selection": "All three declared repair mechanisms, two faulty local mutations, and each named control. No random or held-out sampling. Hypotheses frozen before the campaign."
+}
