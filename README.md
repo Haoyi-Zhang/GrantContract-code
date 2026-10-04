@@ -99,5 +99,3 @@ The cumulative campaign ceiling was not satisfied. The original 100,000-obligati
 ## Provenance and license
 
 Project-specific source is MIT-licensed. External papers and public artifacts are cited or inventoried but not redistributed. The public vCXLGen artifact is inspected only as qualitative evidence that one model path separates ordinary ACK, pending-ack state, a zero-tested ALL_ACKS trigger, and later completion. File-local notices are preserved in the audit; no upstream source is redistributed, modified, benchmarked, or claimed to satisfy this model.
-
-ChatGPT (GPT-5.6 Sol Pro) was used substantively for mathematics, implementation, finite checking, literature comparison, figures, tables, and drafting. The named human authors remain responsible for independent verification, authorship eligibility, originality, disclosure, and any external use. No submission, acceptance, or independent peer review is asserted.
