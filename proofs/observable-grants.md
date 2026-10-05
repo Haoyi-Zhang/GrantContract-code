@@ -122,16 +122,20 @@ number of reachable observer beliefs (`N <= 2^n`), `R <= N*s` the number of
 stored observer edges, and `V <= N*n` the number of returned quiescent-violation
 pairs.  The delivered implementation scans the global alphabet at each belief,
 interns each belief once, materializes both returned lists, and sorts them
-deterministically.  With `B=n+n_post+m+m_post+g+s*log(s+1)`, conservative bounds
+deterministically. Let `I` count all supplied states, uncontrollable edges and
+grant edges, including unreachable input. With `B=I+s*log(s+1)`, conservative bounds
 for this implementation are
 
 `O(B + N*s*(n+m) + (R+V)*n*log(N*s+n+1))` time and
-`O(B + N*n + R + V) = O(B + N*n + R)` space.
+`O(B + N*n + R + V)` resident storage plus `O(n*(R+V))` peak sorting workspace.
 
-The `B` term includes initial hidden closure and pre-grant processing even when
-`s=0`.  Belief residency is charged once through canonical interning; observer
+The `B` term covers full-input adjacency construction before reachability, and
+initial hidden closure/pre-grant processing even when `s=0`. Counts `n,m,n_post,m_post`
+are reachable; `g` counts supplied grants and `s` the reachable pre-grant visible alphabet.
+Belief residency is charged once through canonical interning; observer
 edges reference resident beliefs, while the explicit violation list contributes
-`V`.  Sorting either output may compare belief keys of size at most `n`.  A
+`V`. Sorting caches fresh belief-sized keys for all entries simultaneously, adding
+`O(n*(R+V))` peak workspace; each comparison has key size at most `n`. A
 streaming interface could avoid these returned lists, but that is not the
 delivered Python behavior.  A hidden-only two-state plant and a two-state/
 32-label family exercise the `s=0` and large-alphabet edge/storage corners.  The
