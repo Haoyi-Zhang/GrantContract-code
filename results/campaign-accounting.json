@@ -53,8 +53,22 @@
     "derivation": "251617 + 3*6427 = 270898",
     "note": "Each suite is charged only for the complete 4,403-obligation meta-oracle and 2,024-obligation parameterized study; other partial obligations are not added."
   },
-  "known_conservative_lower_bound": 270898,
-  "minimum_excess_over_prospective_ceiling": 110898,
+  "current_portable_subset_charges": {
+    "native_58_test_suite": {
+      "minimum": 6427,
+      "basis": "One complete 4403-obligation meta-oracle and one complete 2024-obligation parameterized study; other repeated partial checks omitted. Excludes the 24 POSIX-dependent bridge tests."
+    },
+    "added_product_regressions": {
+      "minimum": 258,
+      "basis": "16 tiny component-pair kernel decisions, one absent-joint-grant case, 240 joint-knowledge projection comparisons, and one less-informative-local-belief case. Not a multi-line coherence campaign."
+    },
+    "subtotal": 6685,
+    "derivation": "270898 + 6427 + 258 = 277583",
+    "platform": "Windows-11-10.0.28000-SP0; bundled CPython 3.12.14; PythonUTF8 and no bytecode",
+    "note": "No new complete eleven-output replay or manuscript build was performed in this phase. Historical resource measurements and validation records are retained, not relabeled."
+  },
+  "known_conservative_lower_bound": 277583,
+  "minimum_excess_over_prospective_ceiling": 117583,
   "exact_all_in_total_known": false,
   "remaining_reserve_claimed": false,
   "retained_fresh_replay": {

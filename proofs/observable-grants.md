@@ -357,15 +357,20 @@ many finite acyclic line plants.  Assume each post-grant step changes only one
 component, neither changes another component's state nor disables its steps,
 every maximal component suffix is finite, and a joint terminal is good exactly
 when all component terminals are fresh.  Then the full-state kernel is the
-cartesian product of the per-line kernels.  If every component lies in its
-kernel, every finite interleaving projects to good maximal component suffixes.
-If one component lies outside its kernel, choose a bad maximal component
-suffix and complete the other independent finite components around it; the
-result is a maximal joint suffix with a bad terminal.  Equivalently, the grant
-predicate is the conjunction of the per-line guards.  Theorem 1 still applies
-to the product knowledge set;
-it does not license replacing correlated knowledge by independent marginal
-predicates.  A single aggregate readiness bit can be sufficient only when its
+cartesian product of the per-line kernels. The synchronous joint grant is
+available exactly when every component is grant-eligible. If every component
+lies in its kernel, every finite interleaving projects to good maximal component
+suffixes. Conversely, if a component is ineligible, the joint grant is absent
+and the joint state is outside the kernel; there is no forced-grant suffix to
+choose. If all components are eligible but one lies outside its kernel, choose
+its bad maximal suffix and complete the other independent finite components
+around it. The result is a maximal joint suffix with a bad terminal.
+Equivalently, the grant predicate is the conjunction of the per-line guards.
+Theorem 1 still applies to the joint knowledge set, which need not factor:
+`K(h) subseteq product_j W_j` is equivalent to
+`projection_j(K(h)) subseteq W_j` for every coordinate. These are projections
+of the exact joint set, not beliefs recomputed from less informative separate
+local histories. A single aggregate readiness bit can be sufficient only when its
 atomic semantics certifies that every required line is in its kernel.  The
 separate finite-contract proof explains why arbitrary dependency subsets need
 more information than a largest-identifier or prefix summary.
