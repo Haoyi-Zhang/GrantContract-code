@@ -202,9 +202,6 @@ def synthesize(plant: OneShotPlant) -> SynthesisResult:
                     queue.append(target)
         return frozenset(closed)
 
-    alphabet = sorted({label for source in pre_reachable
-                       for label, _ in uncontrollable[source]
-                       if label is not None})
     initial_belief = hidden_closure(plant.initial)
     # Intern beliefs so each stored observer edge points to the canonical
     # frozenset already resident in the observer.  This makes the documented
@@ -215,15 +212,13 @@ def synthesize(plant: OneShotPlant) -> SynthesisResult:
     observer_edges: set[tuple[frozenset[State], str, frozenset[State]]] = set()
     while queue:
         belief = queue.popleft()
-        for label in alphabet:
-            targets = {
-                target for source in belief
-                for edge_label, target in uncontrollable[source]
-                if edge_label == label
-            }
-            if not targets:
-                continue
-            candidate = hidden_closure(targets)
+        targets_by_label: dict[str, set[State]] = {}
+        for source in belief:
+            for label, target in uncontrollable[source]:
+                if label is not None:
+                    targets_by_label.setdefault(label, set()).add(target)
+        for label in sorted(targets_by_label):
+            candidate = hidden_closure(targets_by_label[label])
             target_belief = belief_intern.get(candidate)
             if target_belief is None:
                 target_belief = candidate

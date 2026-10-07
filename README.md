@@ -44,6 +44,24 @@ The current suite contains **82 deterministic tests** and recomputes the contrac
 
 A portable subset can be run with `python -B -m unittest discover -s tests -p 'test_[!b]*.py' -v`. It contains 58 tests and excludes the 24 tests in `test_bridge.py`, whose import uses POSIX `resource`. This subset does not validate the complete Linux replay path.
 
+The generic observer groups visible targets locally at each belief and processes
+the present labels in sorted order. Hidden closure, canonical belief interning,
+complete observer edges and sorted quiescent witnesses are unchanged. No timing
+improvement is measured. A separate portable extension is available:
+
+```sh
+python -B tests/regression_visible_grouping.py -v
+```
+
+Its four tests use literal path enumeration on 512 three-pre-state plants,
+compare complete synthesis records on the 486 generic plants, 75 receipt plants
+and 50 bounded bridge/interface cases, and retain structural rejection and cap
+checks. They also compare the complete pure meta-oracle and parametric outputs
+with the archived parsed data without changing those files. This explicitly run
+extension is outside `test_*.py` discovery and the existing scientific CI command;
+the 82-test suite and historical 78-test record are not relabelled. It does not
+replay the Linux measurement or completed-execution campaign.
+
 `.github/workflows/scientific-checks.yml` prepares the full Linux test, replay, and comparison sequence for the flat standalone artifact repository. It retains failure exit codes and uploads raw output even on failure. A 240-second whole-sequence wall limit, 180-second per-process CPU limit, and approximately 2.5 GB per-process virtual-memory limit bound the serial run; these checks do not prove the handwritten theorems. Each future run adds enumeration work and is not covered by a claim of compliance with the historical cumulative ceilings.
 
 A fresh full replay is available as a separate action:

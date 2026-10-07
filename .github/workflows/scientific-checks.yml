@@ -38,6 +38,10 @@ jobs:
             python -B reproduce.py --output check-output/reproduced 2>&1 | tee check-output/replay.txt
             python -B verify.py --output check-output/reproduced 2>&1 | tee check-output/comparison.txt
           '
+      - name: Exact visible-target grouping regressions
+        run: |
+          timeout 180s python -B tests/regression_visible_grouping.py -v
+          timeout 180s python -O -B tests/regression_visible_grouping.py -v
       - name: Upload raw output even when a check fails
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

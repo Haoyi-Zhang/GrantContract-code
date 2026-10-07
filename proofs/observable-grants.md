@@ -120,9 +120,9 @@ pre-grant uncontrollable edges, hidden and visible.  Let `n_post,m_post` be the
 post-grant state/edge counts, `g` the grant-edge count, `s=|Sigma|`, `N` the
 number of reachable observer beliefs (`N <= 2^n`), `R <= N*s` the number of
 stored observer edges, and `V <= N*n` the number of returned quiescent-violation
-pairs.  The delivered implementation scans the global alphabet at each belief,
-interns each belief once, materializes both returned lists, and sorts them
-deterministically. Let `I` count all supplied states, uncontrollable edges and
+pairs.  The delivered implementation groups visible targets once per belief,
+processes present labels in sorted order, interns each belief once, and
+materializes and deterministically sorts both returned lists. Let `I` count all supplied states, uncontrollable edges and
 grant edges, including unreachable input. With `B=I+s*log(s+1)`, conservative bounds
 for this implementation are
 
@@ -132,6 +132,8 @@ for this implementation are
 The `B` term covers full-input adjacency construction before reachability, and
 initial hidden closure/pre-grant processing even when `s=0`. Counts `n,m,n_post,m_post`
 are reachable; `g` counts supplied grants and `s` the reachable pre-grant visible alphabet.
+Grouping, sorting at most `s` present labels, and their hidden closures are within
+`O(s*(n+m))` per belief when `s>0`; the stated bound remains conservative.
 Belief residency is charged once through canonical interning; observer
 edges reference resident beliefs, while the explicit violation list contributes
 `V`. Sorting caches fresh belief-sized keys for all entries simultaneously, adding
