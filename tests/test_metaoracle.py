@@ -4,10 +4,12 @@ from __future__ import annotations
 import pathlib
 import sys
 import unittest
+from unittest.mock import patch
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+import metaoracle  # noqa: E402
 from metaoracle import run_metaoracle  # noqa: E402
 
 
@@ -27,6 +29,18 @@ class MetaOracleTests(unittest.TestCase):
         self.assertEqual(self.summary["observer_mismatches"], 0)
         self.assertEqual(self.summary["greatest_contract_mismatches"], 0)
         self.assertEqual(self.summary["nonblocking_mismatches"], 0)
+
+    def test_obligation_count_uses_executed_nonblocking_checks(self):
+        with patch.object(metaoracle, "_contract_nonblocking",
+                          wraps=metaoracle._contract_nonblocking) as checked:
+            summary = run_metaoracle(0)
+        # Each explicit receipt plant has its own additional direct-path check.
+        generic_checks = checked.call_count - summary["receipt_partitions_checked"]
+        self.assertEqual(summary["nonblocking_candidates_checked"], generic_checks)
+        self.assertEqual(generic_checks, 672)
+        self.assertEqual(summary["contract_candidates_checked"], 1188)
+        self.assertEqual(self.summary["counted_obligations"],
+                         4 * 486 + 1188 + 672 + 75 + 6 + 2)
 
     def test_quantifier_and_eligibility_mutants_are_killed(self):
         self.assertGreater(self.summary["existential_mutant_counterexamples"], 0)

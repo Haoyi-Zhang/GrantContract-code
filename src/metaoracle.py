@@ -377,6 +377,7 @@ def _complexity_sanity_cases() -> dict[str, object]:
 class MetaOracleSummary:
     plants_checked: int
     contract_candidates_checked: int
+    nonblocking_candidates_checked: int
     receipt_partitions_checked: int
     kernel_mismatches: int
     observer_mismatches: int
@@ -396,7 +397,8 @@ class MetaOracleSummary:
     def counted_obligations(self) -> int:
         return (
             self.plants_checked * 4
-            + self.contract_candidates_checked * 2
+            + self.contract_candidates_checked
+            + self.nonblocking_candidates_checked
             + self.receipt_partitions_checked
             + 6  # L1--L4, L6 failure, and full-correctness failure
             + 2  # hidden-only and multi-label complexity sanity families
@@ -415,6 +417,7 @@ class MetaOracleSummary:
             },
             "plants_checked": self.plants_checked,
             "contract_candidates_checked": self.contract_candidates_checked,
+            "nonblocking_candidates_checked": self.nonblocking_candidates_checked,
             "receipt_partitions_checked": self.receipt_partitions_checked,
             "receipt_partitions_by_bound": self.receipt_partitions_by_bound,
             "receipt_plant_mismatches": self.receipt_plant_mismatches,
@@ -442,7 +445,7 @@ def run_metaoracle(max_receipt_bound: int = 4) -> dict[str, object]:
     if type(max_receipt_bound) is not int or not 0 <= max_receipt_bound <= 7:
         raise ValueError("max_receipt_bound must be in [0,7]")
 
-    plants_checked = contract_candidates = 0
+    plants_checked = contract_candidates = nonblocking_candidates = 0
     kernel_mismatches = observer_mismatches = 0
     greatest_mismatches = nonblocking_mismatches = 0
     existential_counterexamples = eligibility_counterexamples = 0
@@ -475,6 +478,7 @@ def run_metaoracle(max_receipt_bound: int = 4) -> dict[str, object]:
             correct = _contract_correct(contract, fibers, safe_states)
             if correct:
                 correct_contracts.append(contract)
+                nonblocking_candidates += 1
                 any_nonblocking |= _contract_nonblocking(plant, contract)
         if not correct_contracts or safe_histories not in correct_contracts:
             greatest_mismatches += 1
@@ -532,6 +536,7 @@ def run_metaoracle(max_receipt_bound: int = 4) -> dict[str, object]:
     summary = MetaOracleSummary(
         plants_checked=plants_checked,
         contract_candidates_checked=contract_candidates,
+        nonblocking_candidates_checked=nonblocking_candidates,
         receipt_partitions_checked=receipt_checked,
         kernel_mismatches=kernel_mismatches,
         observer_mismatches=observer_mismatches,

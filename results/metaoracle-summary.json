@@ -16,7 +16,7 @@
     }
   },
   "contract_candidates_checked": 1188,
-  "counted_obligations": 4403,
+  "counted_obligations": 3887,
   "eligibility_mutant_counterexamples": 180,
   "existential_mutant_counterexamples": 64,
   "first_existential_mutant_witness": {
@@ -91,6 +91,7 @@
     },
     "validation_status": "finite executable counterexample"
   },
+  "nonblocking_candidates_checked": 672,
   "nonblocking_mismatches": 0,
   "observer_mismatches": 0,
   "plants_checked": 486,

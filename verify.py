@@ -122,6 +122,11 @@ def check_metaoracle_summary(summary: dict[str, Any]) -> None:
             raise ValueError("retained meta-oracle summary reports a mismatch: " + key)
     if summary.get("plants_checked") != 486 or summary.get("receipt_partitions_checked") != 75:
         raise ValueError("retained meta-oracle universe size regressed")
+    counted = (4 * summary["plants_checked"] + summary["contract_candidates_checked"]
+               + summary["nonblocking_candidates_checked"]
+               + summary["receipt_partitions_checked"] + 6 + 2)
+    if summary.get("counted_obligations") != counted:
+        raise ValueError("meta-oracle executed-call accounting is inconsistent")
     rows = summary.get("receipt_partition_results", [])
     if len(rows) != 75 or any(not row.get("exact") for row in rows):
         raise ValueError("retained explicit receipt-plant rows are incomplete or non-exact")

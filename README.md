@@ -40,9 +40,9 @@ python -m unittest discover -s tests -v
 python verify.py --output results
 ```
 
-The current suite contains **82 deterministic tests** and recomputes the contract/meta-oracle cases exercised by those tests. Four additions check tiny independent products, absent component grants, exact projections of correlated knowledge, and loss from less informative local histories. These are abstract DAG regressions, not a multi-line coherence experiment. The retained 78-test record predates these additions. `verify.py --output results` is narrower: it compares parsed values for eleven retained outputs and checks summary invariants plus local reference/public-source ledger structure. It does **not** rerun synthesis, rederive result flags, or validate upstream sources.
+The current suite contains **83 deterministic tests** and recomputes the contract/meta-oracle cases exercised by those tests. Five additions check tiny independent products, absent component grants, exact projections of correlated knowledge, and loss from less informative local histories. The additional counting regression checks actual nonblocking calls. These are abstract DAG regressions, not a multi-line coherence experiment. The retained 78-test record predates these additions. `verify.py --output results` is narrower: it compares parsed values for eleven retained outputs and checks summary invariants plus local reference/public-source ledger structure. It does **not** rerun synthesis, rederive result flags, or validate upstream sources.
 
-A portable subset can be run with `python -B -m unittest discover -s tests -p 'test_[!b]*.py' -v`. It contains 58 tests and excludes the 24 tests in `test_bridge.py`, whose import uses POSIX `resource`. This subset does not validate the complete Linux replay path.
+A portable subset can be run with `python -B -m unittest discover -s tests -p 'test_[!b]*.py' -v`. It contains 59 tests and excludes the 24 tests in `test_bridge.py`, whose import uses POSIX `resource`. This subset does not validate the complete Linux replay path.
 
 The generic observer groups visible targets locally at each belief and processes
 the present labels in sorted order. Hidden closure, canonical belief interning,
@@ -58,8 +58,8 @@ compare complete synthesis records on the 486 generic plants, 75 receipt plants
 and 50 bounded bridge/interface cases, and retain structural rejection and cap
 checks. They also compare the complete pure meta-oracle and parametric outputs
 with the archived parsed data without changing those files. This explicitly run
-extension is outside `test_*.py` discovery and the existing scientific CI command;
-the 82-test suite and historical 78-test record are not relabelled. It does not
+extension is outside `test_*.py` discovery; scientific CI runs it separately in both normal and optimized Python;
+the 83-test suite and historical 78-test record are not relabelled. It does not
 replay the Linux measurement or completed-execution campaign.
 
 `.github/workflows/scientific-checks.yml` prepares the full Linux test, replay, and comparison sequence for the flat standalone artifact repository. It retains failure exit codes and uploads raw output even on failure. A 240-second whole-sequence wall limit, 180-second per-process CPU limit, and approximately 2.5 GB per-process virtual-memory limit bound the serial run; these checks do not prove the handwritten theorems. Each future run adds enumeration work and is not covered by a claim of compliance with the historical cumulative ceilings.
@@ -71,7 +71,7 @@ python reproduce.py --output reproduced
 python verify.py --output reproduced
 ```
 
-`reproduced` must not exist or must be empty. `reproduce.py` performs the complete fresh 19,002-obligation computation; the following `verify.py` invocation compares its parsed outputs with the retained set. It does not mechanize the handwritten general proofs, make same-authorship implementations independent, or discharge a simulation for a real protocol.
+`reproduced` must not exist or must be empty. `reproduce.py` performs the complete fresh 18,486-obligation computation; the following `verify.py` invocation compares its parsed outputs with the retained set. It does not mechanize the handwritten general proofs, make same-authorship implementations independent, or discharge a simulation for a real protocol.
 
 ## Repository map
 
@@ -114,7 +114,7 @@ Resource and campaign records are intentionally excluded from stable-value equal
 
 ## Reproducibility and campaign accounting
 
-The retained outputs contain 19,002 declared finite obligations. The historical one-process Linux replay measured 0.8083 process-CPU seconds after imports, 0.8083 seconds wall time, and 98,348 KiB (about 96.04 MiB) peak RSS. These are checker costs, not architecture measurements or costs of the added product regressions.
+The retained outputs contain 18,486 declared finite obligations. The corrected count uses 1,188 correctness checks and 672 nonblocking checks, rather than counting two checks for every contract. The historical one-process Linux replay measured 0.8083 process-CPU seconds after imports, 0.8083 seconds wall time, and 98,348 KiB (about 96.04 MiB) peak RSS. These are checker costs, not architecture measurements or costs of the added product regressions.
 
 The cumulative campaign ceiling was not satisfied. The original 100,000-obligation ceiling was exceeded, and a later prospective 160,000 ceiling was also exceeded. The documented conservative lower bound is updated after every identifiable full-universe invocation; partial test invocations were not all individually metered, so no exact all-in total or remaining reserve is asserted. The historical full replay and the later portable-subset/product charges remain distinct in `results/campaign-accounting.json`; short runtime is not a waiver.
 
