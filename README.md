@@ -31,7 +31,7 @@ These are exhaustive results only inside the retained finite universes. They are
 
 ## Validation commands
 
-The documented execution path is Linux or WSL. This package was validated on x86-64 Linux 6.18.44, glibc 2.41, and CPython 3.13.5. Native Windows Python is unsupported because `reproduce.py` imports POSIX `resource`; `peak_rss_kib` is Linux `ru_maxrss` in KiB. The scientific code uses one worker, no randomness, no network, no solver, no model API, no GPU, and no private data.
+The documented execution path is Linux or WSL. The complete replay and 83-test suite ran on x86-64 Ubuntu 24.04 with CPython 3.12. Native Windows Python is unsupported because `reproduce.py` imports POSIX `resource`; `peak_rss_kib` is Linux `ru_maxrss` in KiB. The scientific code uses one worker, no randomness, no network, no solver, no model API, no GPU, and no private data.
 
 From the repository root:
 
@@ -87,7 +87,7 @@ python verify.py --output reproduced
 | `proofs/observable-grants.md` | General contract, nonblocking, monotonicity, lifting, receipt, taxonomy, and product proofs |
 | `proofs/operational-bridge.md` | Detailed `K=1` transition, progress, and MP mapping argument |
 | `proofs/finite-contracts.md` | Completed-outcome quotient and information diagnostics |
-| `tests/` | 82 deterministic regression, mutation, synthesis, product, ledger-structure, and metadata tests |
+| `tests/` | 83 deterministic regression, mutation, synthesis, product, ledger-structure, and metadata tests |
 | `results/` | Retained stable outputs plus resource, reproduction, and accounting records |
 | `claim_evidence_ledger.csv` | Claim-to-proof/check/result traceability |
 | `reference_audit.csv` | 33 cited records: 31 scholarly works, one author corrigendum, and one pinned public artifact |
@@ -114,7 +114,7 @@ Resource and campaign records are intentionally excluded from stable-value equal
 
 ## Reproducibility and campaign accounting
 
-The retained outputs contain 18,486 declared finite obligations. The corrected count uses 1,188 correctness checks and 672 nonblocking checks, rather than counting two checks for every contract. The historical one-process Linux replay measured 0.8083 process-CPU seconds after imports, 0.8083 seconds wall time, and 98,348 KiB (about 96.04 MiB) peak RSS. These are checker costs, not architecture measurements or costs of the added product regressions.
+The retained outputs contain 18,486 declared finite obligations, including 1,188 correctness checks and 672 executed nonblocking checks. The complete Ubuntu 24.04 replay measured 1.3743 process-CPU seconds after imports, 1.3737 seconds wall time, and 23,088 KiB (about 22.55 MiB) peak RSS. These are checker costs, not architecture measurements.
 
 The cumulative campaign ceiling was not satisfied. The original 100,000-obligation ceiling was exceeded, and a later prospective 160,000 ceiling was also exceeded. The documented conservative lower bound is updated after every identifiable full-universe invocation; partial test invocations were not all individually metered, so no exact all-in total or remaining reserve is asserted. The historical full replay and the later portable-subset/product charges remain distinct in `results/campaign-accounting.json`; short runtime is not a waiver.
 

@@ -1,11 +1,11 @@
 {
   "address_space_limit_bytes": 2500000000,
   "bridge_input_bytes": 2585,
-  "combined_counted_obligations": 19002,
-  "cpu_seconds": 0.808267596,
+  "combined_counted_obligations": 18486,
+  "cpu_seconds": 1.374304993,
   "inputs_bytes": 43845,
   "metaoracle_contract_candidates_checked": 1188,
-  "metaoracle_counted_obligations": 4403,
+  "metaoracle_counted_obligations": 3887,
   "metaoracle_plants_checked": 486,
   "network_requests": 0,
   "parametric_bounds_checked": [
@@ -16,10 +16,10 @@
     4
   ],
   "parametric_counted_obligations": 2024,
-  "peak_rss_kib": 98348,
+  "peak_rss_kib": 23088,
   "process_cpu_limit_seconds": 120,
   "randomness": "none; exhaustive lexicographic enumeration",
   "timing_scope": "complete event-graph, operational-bridge, parameterized, and tiny-plant meta-oracle experiments after imports; excludes compilation; RSS includes interpreter startup",
-  "wall_seconds": 0.8082931280000594,
+  "wall_seconds": 1.373735946,
   "workers": 1
 }
