@@ -90,7 +90,7 @@ python verify.py --output reproduced
 | `tests/` | 83 deterministic regression, mutation, synthesis, product, ledger-structure, and metadata tests |
 | `results/` | Retained stable outputs plus resource, reproduction, and accounting records |
 | `claim_evidence_ledger.csv` | Claim-to-proof/check/result traceability |
-| `reference_audit.csv` | 33 cited records: 31 scholarly works, one author corrigendum, and one pinned public artifact |
+| `reference_audit.csv` | 52 cited records: 50 scholarly works, one author corrigendum, and one pinned public artifact; minimum 50 distinct records, no fixed upper cap |
 | `public_protocol_audit.csv` | Five immutable source facts and explicit non-lifting boundaries for the vCXLGen audit |
 | `external_resources.csv` | Scholarly, official, and public-artifact source inventory with integration boundaries |
 

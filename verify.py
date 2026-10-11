@@ -28,8 +28,8 @@ def check_reference_ledger_structure() -> int:
     with (ROOT / "reference_audit.csv").open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     keys = [row.get("key", "") for row in rows]
-    if not 30 <= len(rows) <= 45 or not all(keys) or len(keys) != len(set(keys)):
-        raise ValueError("reference ledger must contain 30--45 unique nonempty keys")
+    if len(rows) < 50 or not all(keys) or len(keys) != len(set(keys)):
+        raise ValueError("reference ledger must contain at least 50 unique nonempty keys")
     if any(row.get("status") != "PASS" for row in rows):
         raise ValueError("reference ledger records a non-PASS local status")
     tc_rows = [row for row in rows

@@ -15,8 +15,7 @@ class ReferenceAuditTests(unittest.TestCase):
         cls.by_key = {row["key"]: row for row in cls.rows}
 
     def test_inventory_is_unique_complete_and_passed(self):
-        self.assertGreaterEqual(len(self.rows), 30)
-        self.assertLessEqual(len(self.rows), 45)
+        self.assertGreaterEqual(len(self.rows), 50)
         self.assertEqual(len(self.by_key), len(self.rows))
         self.assertTrue(all(row["status"] == "PASS" for row in self.rows))
         self.assertTrue(all(row["title"] and row["authors"] and row["venue"]
