@@ -23,19 +23,22 @@ STABLE = (
 )
 
 
+def validate_reference_count(count: int) -> None:
+    """Apply the TC regular-paper reference cap, without a venue quota."""
+    if type(count) is not int or not 1 <= count <= 45:
+        raise ValueError("TC regular papers require a nonempty bibliography of at most 45 records")
+
+
 def check_reference_ledger_structure() -> int:
     """Check only the delivered reference ledger's local schema/invariants."""
     with (ROOT / "reference_audit.csv").open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     keys = [row.get("key", "") for row in rows]
-    if len(rows) < 50 or not all(keys) or len(keys) != len(set(keys)):
-        raise ValueError("reference ledger must contain at least 50 unique nonempty keys")
+    validate_reference_count(len(rows))
+    if not all(keys) or len(keys) != len(set(keys)):
+        raise ValueError("reference ledger must contain unique nonempty keys")
     if any(row.get("status") != "PASS" for row in rows):
         raise ValueError("reference ledger records a non-PASS local status")
-    tc_rows = [row for row in rows
-               if row.get("venue", "").startswith("IEEE Transactions on Computers")]
-    if len(tc_rows) != 12:
-        raise ValueError("reference ledger does not contain twelve TC calibration papers")
     expected = {
         "heterogen": ("HPCA 2022", "756-771", "10.1109/HPCA53966.2022.00061"),
         "disco": ("IEEE Transactions on Computers 72(4)", "1163-1177",

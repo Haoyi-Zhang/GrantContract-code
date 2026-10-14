@@ -40,9 +40,9 @@ python -m unittest discover -s tests -v
 python verify.py --output results
 ```
 
-The current suite contains **83 deterministic tests** and recomputes the contract/meta-oracle cases exercised by those tests. Five additions check tiny independent products, absent component grants, exact projections of correlated knowledge, and loss from less informative local histories. The additional counting regression checks actual nonblocking calls. These are abstract DAG regressions, not a multi-line coherence experiment. The retained 78-test record predates these additions. `verify.py --output results` is narrower: it compares parsed values for eleven retained outputs and checks summary invariants plus local reference/public-source ledger structure. It does **not** rerun synthesis, rederive result flags, or validate upstream sources.
+The suite contains **85 deterministic tests** and recomputes the contract/meta-oracle cases exercised by those tests. It covers tiny independent products, absent component grants, exact projections of correlated knowledge, loss from less informative local histories, executed nonblocking calls, and reference-count boundaries. These are finite-model and input/metadata regressions. `verify.py --output results` compares parsed values for eleven retained outputs and checks summary invariants plus local reference/public-source ledger structure. Fresh synthesis and source inspection are separate operations.
 
-A portable subset can be run with `python -B -m unittest discover -s tests -p 'test_[!b]*.py' -v`. It contains 59 tests and excludes the 24 tests in `test_bridge.py`, whose import uses POSIX `resource`. This subset does not validate the complete Linux replay path.
+A portable subset can be run with `python -B -m unittest discover -s tests -p 'test_[!b]*.py' -v`. It contains 61 tests and excludes the 24 tests in `test_bridge.py`, whose import uses POSIX `resource`. This subset does not validate the complete Linux replay path.
 
 The generic observer groups visible targets locally at each belief and processes
 the present labels in sorted order. Hidden closure, canonical belief interning,
@@ -59,7 +59,7 @@ and 50 bounded bridge/interface cases, and retain structural rejection and cap
 checks. They also compare the complete pure meta-oracle and parametric outputs
 with the archived parsed data without changing those files. This explicitly run
 extension is outside `test_*.py` discovery; scientific CI runs it separately in both normal and optimized Python;
-the 83-test suite and historical 78-test record are not relabelled. It does not
+the full-suite and replay records remain separate. It does not
 replay the Linux measurement or completed-execution campaign.
 
 `.github/workflows/scientific-checks.yml` prepares the full Linux test, replay, and comparison sequence for the flat standalone artifact repository. It retains failure exit codes and uploads raw output even on failure. A 240-second whole-sequence wall limit, 180-second per-process CPU limit, and approximately 2.5 GB per-process virtual-memory limit bound the serial run; these checks do not prove the handwritten theorems. Each future run adds enumeration work and is not covered by a claim of compliance with the historical cumulative ceilings.
@@ -87,10 +87,10 @@ python verify.py --output reproduced
 | `proofs/observable-grants.md` | General contract, nonblocking, monotonicity, lifting, receipt, taxonomy, and product proofs |
 | `proofs/operational-bridge.md` | Detailed `K=1` transition, progress, and MP mapping argument |
 | `proofs/finite-contracts.md` | Completed-outcome quotient and information diagnostics |
-| `tests/` | 83 deterministic regression, mutation, synthesis, product, ledger-structure, and metadata tests |
+| `tests/` | 85 deterministic regression, mutation, synthesis, product, ledger-structure, and metadata tests |
 | `results/` | Retained stable outputs plus resource, reproduction, and accounting records |
 | `claim_evidence_ledger.csv` | Claim-to-proof/check/result traceability |
-| `reference_audit.csv` | 52 cited records: 50 scholarly works, one author corrigendum, and one pinned public artifact; minimum 50 distinct records, no fixed upper cap |
+| `reference_audit.csv` | 45 cited records: 43 scholarly works, one author corrigendum, and one pinned public artifact; TC permits at most 45 references |
 | `public_protocol_audit.csv` | Five immutable source facts and explicit non-lifting boundaries for the vCXLGen audit |
 | `external_resources.csv` | Scholarly, official, and public-artifact source inventory with integration boundaries |
 

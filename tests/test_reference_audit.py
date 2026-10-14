@@ -3,6 +3,8 @@ import pathlib
 import re
 import unittest
 
+from verify import validate_reference_count
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 AUDIT = ROOT / "reference_audit.csv"
 
@@ -15,7 +17,8 @@ class ReferenceAuditTests(unittest.TestCase):
         cls.by_key = {row["key"]: row for row in cls.rows}
 
     def test_inventory_is_unique_complete_and_passed(self):
-        self.assertGreaterEqual(len(self.rows), 50)
+        self.assertGreater(len(self.rows), 0)
+        self.assertLessEqual(len(self.rows), 45)
         self.assertEqual(len(self.by_key), len(self.rows))
         self.assertTrue(all(row["status"] == "PASS" for row in self.rows))
         self.assertTrue(all(row["title"] and row["authors"] and row["venue"]
@@ -36,12 +39,22 @@ class ReferenceAuditTests(unittest.TestCase):
         self.assertEqual(len(dois), len(set(dois)))
         self.assertTrue(all(re.fullmatch(r"10\.\d{4,9}/\S+", doi) for doi in dois))
 
-    def test_same_venue_calibration_has_twelve_tc_papers(self):
+    def test_tc_metadata_has_publisher_identifiers(self):
         tc_rows = [row for row in self.rows
                    if row["venue"].startswith("IEEE Transactions on Computers")]
-        self.assertEqual(len(tc_rows), 12)
         self.assertTrue(all(row["doi_or_identifier"].startswith("10.1109/")
                             for row in tc_rows))
+
+    def test_reference_cap_accepts_boundary_and_smaller_bibliographies(self):
+        for count in (1, 44, 45):
+            with self.subTest(count=count):
+                validate_reference_count(count)
+
+    def test_reference_cap_rejects_overflow_empty_and_noninteger_counts(self):
+        for count in (0, 46, 52, -1, True, 45.0):
+            with self.subTest(count=count):
+                with self.assertRaises(ValueError):
+                    validate_reference_count(count)
 
     def test_corrected_and_qualifying_records_are_pinned(self):
         heterogen = self.by_key["heterogen"]
